@@ -1,0 +1,256 @@
+/* Required height of parents of the Half Page Carousel for proper displaying carousel itself */
+html,
+body,
+.view {
+  height: 100%; }
+
+@media (max-width: 740px) {
+  .full-page-intro {
+    height: 1000px; } }
+
+/* Half Page Carousel itself*/
+.carousel {
+  height: 50%; }
+  .carousel .carousel-inner {
+    height: 100%; }
+    .carousel .carousel-inner .carousel-item,
+    .carousel .carousel-inner .active {
+      height: 100%; }
+
+/* Adjustment for mobile devices*/
+@media (max-width: 776px) {
+  .carousel {
+    height: 100%; } }
+
+/* Navbar animation */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.1); }
+
+.top-nav-collapse {
+  background-color: #212121; }
+
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #212121; } }
+
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+  background-color: #212121; }
+
+#MainNav, body{
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+/*Modificaciones*/
+#svgext{
+  width: 30px;
+}
+
+.logo-main{
+  border-radius: 50%;
+}
+
+
+
+#MainNav, footer{
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: background-color 0.2s ease;
+}*
+
+/*--------------------CUSTOM STYLES------------------------------*/
+
+.text-custom{
+  color: #002060 !important;
+}
+.bg-custom{
+  background-color: #002060 !important;
+}
+
+.bg-custom-dark{
+  background-color:;
+}
+.rounded-custom{
+  border-radius: 0px;
+}
+
+
+/*#title-section-1{
+  text-shadow: 3px 3px 3px black;
+}*/
+
+#fdsfsdcustom-card{
+
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/**/
+
+#login-btn{
+    font-size: 18px;
+}
+
+#btn-custom-1{
+  background-color: rgba(37, 37, 37, 0.5) !important;
+}
+
+#btn-custom-1:hover{
+  background-color: rgba(37, 37, 37, 0.8) !important;
+  border-radius: 10px;
+  border-color:#FFB327 !important;
+}
+
+#btn-custom-2{
+  background-color: rgba(37, 37, 37, 0.5) !important;
+}
+
+#btn-custom-2:hover{
+  background-color: rgba(37, 37, 37, 0.8) !important;
+  border-radius: 10px;
+  border-color:#00c851 !important;
+}
+
+/*---Card custom of features----*/
+
+.custom-title-factura{
+
+  background-color: #002060;
+}
+
+.fa-file-invoice{
+  color:  #002060;
+}
+
+/*---Card custom of features----*/
+
+.custom-title-inventario{
+  background-color: #FF6600;
+}
+
+.fa-database{
+  color: #FF6600; 
+}
+
+/*---Card custom of features----*/
+.custom-title-reporte{
+  background-color: #00B050;
+}
+
+.fa-clipboard-list{
+  color: #00B050; 
+}
+
+/*---Card custom of features----*/
+.custom-title-contacto{
+  background-color: #9F2599;
+}
+
+.fa-address-book{
+  color: #9F2599; 
+}
+
+/*---Card custom of features----*/
+.custom-title-gasto{
+  background-color: red;
+}
+
+.fa-file-invoice-dollar{
+  color: red; 
+}
+
+
+#titlecara{
+  margin-top: 10px;
+}
+
+
+
+#custom-btn{
+  font-size: 20px;
+  text-shadow: 1px 1px 2px black;
+}
+
+.img-logo-footer{
+  width: 100px;
+}
+
+ .img-footer{
+  width: 150px;
+ }
+
+#nom-footer{
+  color: #FF6600;
+}
+
+#coloricon{
+  color: rgba(255, 255, 255, 0.25);
+}
+
+
+/*-----------------------------------------*/
+
+#form-contact-gappy{
+  width: 350px;
+}
+
+#mensaje-contacto{
+  width: 350px;
+}
+
+
+/*-----------Gradientes en iconos --------------------------------*/
+
+.gradiente1{
+  background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gradiente2{
+   background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gradiente3{
+ background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+/**/
+#especial {
+  text-shadow: 4px 4px 4px black;
+}
+
+/* */
+
+
+.ir-arriba {
+  display:none;
+  padding:10px;
+  background-color:#FF6600;
+  font-size:20px;
+  color:#fff;
+  cursor:pointer;
+  position: fixed;
+  bottom:20px;
+  right:20px;
+  border-radius: 10px;
+ 
+}
+
+.ir-arriba:hover{
+  background:rgba(255, 165, 0, 0.5); 
+}
+
+/**/
+
+#hover:hover{
+  background-color:#252525;
+}
